@@ -1,0 +1,68 @@
+Example-1
+
+⚽ Enter your football question: What is 2+2?
+
+🧠 Step: result
+📄 I'm specialized in football (soccer). Please ask a football-related question.
+
+✅ Final answer complete.
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+Example-2
+
+⚽ Enter your football question: Do you know RCB?
+
+🧠 Step: analyse
+📄 The question is asking about the meaning of RCB in the context of football.
+
+🧠 Step: think
+📄 RCB usually stands for Right Center Back in football.  It refers to the central defender positioned on the right side of a team's back three or back four.
+
+🧠 Step: result
+📄 RCB usually stands for Right Center Back in football. It refers to the central defender positioned on the right side of a team's back three or back four.
+
+✅ Final answer complete.
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+Example-3
+
+⚽ Enter your football question: Who is best manager Ancelotti or Pep Guardiola? Considering carrer till date? Consider stats team/players managed?  
+
+🧠 Step: analyse
+📄 This question asks to compare the managerial careers of Carlo Ancelotti and Pep Guardiola and decide who is better.  The comparison should consider their career statistics and the teams and players they have managed.
+
+🧠 Step: think
+📄 Both Ancelotti and Guardiola are considered among the best managers in football history.  Ancelotti has a record of winning major trophies in various leagues, demonstrating his adaptability. Guardiola, on the other hand, is known for his possession-based style and tactical innovations, achieving great success with Barcelona, Bayern Munich and Manchester City.  A direct comparison is difficult because they've managed different teams in different eras and faced varied competitive landscapes.  To make a fair comparison, I need to look at their trophy hauls, the quality of the teams they've managed, and their overall impact on the game.
+
+🧠 Step: output
+📄 Deciding definitively who is better between Ancelotti and Guardiola is subjective and depends on the criteria used. Both have remarkably successful careers with significant achievements. Ancelotti's career showcases broader success across different leagues and teams, highlighting his adaptability. Guardiola's career, however, is marked by a distinctive style and consistent high performance, often dominating domestic leagues.  Ultimately, choosing one as definitively 'better' is a matter of personal preference and the weighting given to different aspects of managerial success.
+
+🧠 Step: result
+📄 Choosing between Ancelotti and Guardiola as the better manager is subjective and depends on the criteria used. Both managers have achieved remarkable success in their careers. Ancelotti demonstrates adaptability by winning major trophies in various leagues and with different teams. Guardiola is known for his unique style of play and consistent high performance, achieving dominance in several domestic leagues.  The 'better' manager is a matter of personal preference and how different aspects of managerial success are weighted.
+
+✅ Final answer complete.
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+Example-4
+
+⚽ Enter your football question: Who are top 3 manager in football after 2000??
+
+🧠 Step: analyse
+📄 This question asks to rank the top 3 football managers after the year 2000.  The criteria for 'top' are subjective and could include trophies won, tactical innovations, longevity at top clubs, and overall impact on the game.
+
+🧠 Step: think
+📄 Several managers stand out.  Sir Alex Ferguson's dominance with Manchester United continued into the 2000s, yielding multiple Premier League titles.  Pep Guardiola revolutionized the game with Barcelona, winning numerous trophies including the Champions League, and continues to excel with Bayern Munich and Manchester City.  José Mourinho's tactical prowess and success with Porto, Chelsea, Inter Milan, and Real Madrid also makes him a strong contender.
+
+🧠 Step: think
+📄 Other managers like Carlo Ancelotti (with multiple Champions League titles across different clubs) and Jürgen Klopp (with his success at Borussia Dortmund and Liverpool, including a Champions League victory) also deserve consideration.  The ranking will depend on the weighting given to different aspects of managerial success.
+
+🧠 Step: validate
+📄 The criteria for 'top' are subjective and debatable.  There's no single definitive metric.  However, considering trophies, tactical impact and longevity at top clubs, a strong case can be made for the managers mentioned.
+
+🧠 Step: result
+📄 Choosing only three is difficult and subjective, but based on a combination of trophies, tactical innovations, and sustained success at top clubs, a strong argument can be made for including Sir Alex Ferguson, Pep Guardiola, and José Mourinho among the top 3 managers after 2000.  Other managers like Carlo Ancelotti and Jürgen Klopp also have incredibly strong claims.
+
+✅ Final answer complete.
