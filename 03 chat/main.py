@@ -57,6 +57,7 @@ Examples:
 
 response = client.chat.completions.create(
   model = 'gemini-1.5-flash',
+  response_format="json",
   messages = [
     {
       "role": "system",
