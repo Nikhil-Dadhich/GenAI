@@ -5,6 +5,7 @@ import json
 import requests
 import os
 import time
+import subprocess
 
 # Load environment variables
 load_dotenv()
@@ -19,9 +20,14 @@ client = OpenAI(
 generated_data = {}
 
 # Tool implementations
+
 def run_command(cmd: str):
-    result = os.system(cmd)
-    return f"Command executed with exit code {result}"
+    try:
+        result = subprocess.check_output(cmd, shell=True, stderr=subprocess.STDOUT, text=True)
+        return result.strip()
+    except subprocess.CalledProcessError as e:
+        return f"❌ Command failed: {e.output.strip()}"
+
 
 def get_weather(city: str):
     url = f"https://wttr.in/{city}?format=%C+%t"
