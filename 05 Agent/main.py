@@ -118,11 +118,12 @@ while True:
         continue
 
     messages.append({ "role": "user", "content": query })
+    done = False
 
-    while True:
+    while not done:
         try:
             response = client.chat.completions.create(
-                model="gemini-1.5-flash",  # Adjust as needed
+                model="gemini-1.5-flash",
                 response_format={ "type": "json_object" },
                 messages=messages
             )
@@ -177,7 +178,7 @@ while True:
                             "output": output
                         })
                     })
-                    break  # ✅ Wait for assistant to reason again on observation
+                    break
 
             elif step == "store":
                 filepath = parsed_response.get("filepath")
@@ -189,4 +190,6 @@ while True:
 
             elif step == "output":
                 print(f"🤖: {parsed_response.get('content')}")
-                break  # ✅ Final output received
+                done = True
+                break  # breaks for-loop
+
