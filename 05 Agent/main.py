@@ -136,8 +136,8 @@ while True:
             break
 
         raw_content = response.choices[0].message.content
-        print("🧾 Raw content:")
-        print(raw_content)
+        # print("🧾 Raw content:")
+        # print(raw_content)
         if not raw_content:
             print("⚠️ Empty response from the model. Skipping this cycle.")
             break
