@@ -8,7 +8,7 @@ import os
 load_dotenv()
 
 
-pdf_path = Path(__file__).parent / "nodejs.pdf"
+pdf_path = Path(__file__).parent / "football_rules.pdf"
 loader = PyPDFLoader(file_path=pdf_path)
 docs = loader.load()
 
